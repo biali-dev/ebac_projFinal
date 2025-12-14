@@ -2,7 +2,7 @@
 name = "twitter-clone"
 version = "0.1.0"
 description = ""
-authors = ["Analice <analice.leite12@gmail.com>"]
+authors = [""]
 readme = "README.md"
 
 [tool.poetry.dependencies]
@@ -16,6 +16,7 @@ djoser = "^2.2.3"
 python-decouple = "^3.8"
 secure-smtplib = "^0.1.1"
 python-dotenv = "^1.0.1"
+gunicorn = "^23.0.0"
 
 [tool.poetry.group.dev.dependencies]
 Django = "^5.1.2"
